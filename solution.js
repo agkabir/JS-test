@@ -9,13 +9,13 @@ dishes = [
   "Salmon",
 ];
 //  Solution Q 1.1
-//console.log("Solution for part 1.1");
+console.log("Solution for part 1.1");
 for (dish of dishes) {
-  //console.log(dish);
+  console.log(dish);
 }
 // solution Q 1.2
-//console.log("Solution for part 1.2");
-//console.log(dishes[Math.floor(Math.random() * dishes.length)]);
+console.log("Solution for part 1.2");
+console.log(dishes[Math.floor(Math.random() * dishes.length)]);
 
 // exercise 2
 // Solution Q 2
@@ -35,7 +35,6 @@ createdButton.addEventListener("click", inserH1TagAndChangeBackgroundColor);
 
 // exercise 3
 // solution Q.3
-// function to create and save screenshot
 const BASE_URL = "https://reqres.in/api/users";
 const apiCall = async (event) => {
   try {
