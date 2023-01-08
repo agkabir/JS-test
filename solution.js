@@ -35,6 +35,7 @@ createdButton.addEventListener("click", inserH1TagAndChangeBackgroundColor);
 
 // exercise 3
 // solution Q.3
+// function to create and save screenshot
 const BASE_URL = "https://reqres.in/api/users";
 const apiCall = async (event) => {
   try {
